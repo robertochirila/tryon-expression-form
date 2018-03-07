@@ -1,0 +1,39 @@
+<template name="userCard">
+    <div class="row">
+        <div class="column is-one-quarter">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        {{name}}
+                    </p>
+                    <a href="#" class="card-header-icon" aria-label="more options">
+      <span class="icon">
+        <i class="fas fa-angle-down" aria-hidden="true"></i>
+      </span>
+                    </a>
+                </header>
+                <div class="card-content">
+                    <div class="content">
+                        <p>What is fashion to you: {{text1}}</p>
+                        <p>How would you describe your style: {{text2}}</p>
+                        <p>Describe your expression: {{text3}}</p>
+                        <p>What would be your message to someone: {{text4}}</p>
+                        <p>User Following: {{followers}}</p>
+                        <p>User Brand: {{brand}}</p>
+                        <p>User Country: {{country}}</p>
+                        <p>How do you engage in your community? {{engageText}}</p>
+                        <p>Social Channels: {{socialChannel}}</p>
+                        <p>Brand Ambassador: {{brandAmbassador}}</p>
+                        <p>User Requires Help: {{helpText}}</p>
+                    </div>
+                </div>
+                <footer class="card-footer">
+                    <a href="#" class="card-footer-item">Delete</a>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+</template>
+
+
